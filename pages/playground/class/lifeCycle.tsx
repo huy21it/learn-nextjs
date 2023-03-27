@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 type StateType = {
   counter: number;
 };
-export default class index extends Component<any, StateType> {
+export default class lifeCycle extends Component<any, StateType> {
   constructor(props: {} | Readonly<{}>) {
     super(props);
     this.state = {
